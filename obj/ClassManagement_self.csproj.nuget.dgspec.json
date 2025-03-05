@@ -1,0 +1,372 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/ClassManagement_self.csproj": {}
+  },
+  "projects": {
+    "/Users/satishnashakya/Projects/ClassManagement_self/BAL/BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/satishnashakya/Projects/ClassManagement_self/BAL/BAL.csproj",
+        "projectName": "BAL",
+        "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/BAL/BAL.csproj",
+        "packagesPath": "/Users/satishnashakya/.nuget/packages/",
+        "outputPath": "/Users/satishnashakya/Projects/ClassManagement_self/BAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/satishnashakya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/satishnashakya/Projects/ClassManagement_self/DAO/DAO.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/DAO/DAO.csproj"
+              },
+              "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj"
+              },
+              "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/ClassManagement_self.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/ClassManagement_self.csproj",
+        "projectName": "ClassManagement_self",
+        "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/ClassManagement_self.csproj",
+        "packagesPath": "/Users/satishnashakya/.nuget/packages/",
+        "outputPath": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/satishnashakya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/satishnashakya/Projects/ClassManagement_self/BAL/BAL.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/BAL/BAL.csproj"
+              },
+              "/Users/satishnashakya/Projects/ClassManagement_self/DAO/DAO.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/DAO/DAO.csproj"
+              },
+              "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj"
+              },
+              "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/satishnashakya/Projects/ClassManagement_self/DAO/DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/satishnashakya/Projects/ClassManagement_self/DAO/DAO.csproj",
+        "projectName": "DAO",
+        "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/DAO/DAO.csproj",
+        "packagesPath": "/Users/satishnashakya/.nuget/packages/",
+        "outputPath": "/Users/satishnashakya/Projects/ClassManagement_self/DAO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/satishnashakya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj"
+              },
+              "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj",
+        "packagesPath": "/Users/satishnashakya/.nuget/packages/",
+        "outputPath": "/Users/satishnashakya/Projects/ClassManagement_self/Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/satishnashakya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj",
+        "projectName": "Helper",
+        "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Helper/Helper.csproj",
+        "packagesPath": "/Users/satishnashakya/.nuget/packages/",
+        "outputPath": "/Users/satishnashakya/Projects/ClassManagement_self/Helper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/satishnashakya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj": {
+                "projectPath": "/Users/satishnashakya/Projects/ClassManagement_self/Entity/Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

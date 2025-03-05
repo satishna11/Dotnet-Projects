@@ -1,0 +1,2149 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/obj/Debug/net8.0/scopedcss/projectbundle/ClassManagement_self.bundle.scp.css",
+      "PackagePath": "staticwebassets/ClassManagement_self.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/CustomJs/CourseGroup.js",
+      "PackagePath": "staticwebassets/CustomJs/CourseGroup.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/CustomJs/CourseInfo.js",
+      "PackagePath": "staticwebassets/CustomJs/CourseInfo.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/CustomJs/Custom.js",
+      "PackagePath": "staticwebassets/CustomJs/Custom.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/CustomJs/DashboardSlider.js",
+      "PackagePath": "staticwebassets/CustomJs/DashboardSlider.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/CustomJs/Student.js",
+      "PackagePath": "staticwebassets/CustomJs/Student.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/CustomJs/jquery-clock-timepicker.min.js",
+      "PackagePath": "staticwebassets/CustomJs/jquery-clock-timepicker.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/CustomJs/newFile.js",
+      "PackagePath": "staticwebassets/CustomJs/newFile.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/12ca775d-9b06-4b80-9931-5f191413bc1a.jpeg",
+      "PackagePath": "staticwebassets/satishna/12ca775d-9b06-4b80-9931-5f191413bc1a.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/13300628-5618-4352-bf0f-5fb274b62ef6.jpeg",
+      "PackagePath": "staticwebassets/satishna/13300628-5618-4352-bf0f-5fb274b62ef6.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/15424098-1843-4f6f-89f0-b039daf65a4c.jpeg",
+      "PackagePath": "staticwebassets/satishna/15424098-1843-4f6f-89f0-b039daf65a4c.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/16907528-8bd6-400f-bade-83a3a481ffa3.jpeg",
+      "PackagePath": "staticwebassets/satishna/16907528-8bd6-400f-bade-83a3a481ffa3.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/1a83e84c-4176-4361-b5bd-e7c4cb5e6f84.jpeg",
+      "PackagePath": "staticwebassets/satishna/1a83e84c-4176-4361-b5bd-e7c4cb5e6f84.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/1bdf3d17-8dca-424e-814f-5b32931799a5.jpeg",
+      "PackagePath": "staticwebassets/satishna/1bdf3d17-8dca-424e-814f-5b32931799a5.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/1f7b9071-21a9-4f03-8a04-44563209a178.jpeg",
+      "PackagePath": "staticwebassets/satishna/1f7b9071-21a9-4f03-8a04-44563209a178.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/2035bb3e-39e8-4080-98ed-7848904d39ea.jpeg",
+      "PackagePath": "staticwebassets/satishna/2035bb3e-39e8-4080-98ed-7848904d39ea.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/29dcd30a-5cbd-4aa5-a107-e377c3ea16c8.jpeg",
+      "PackagePath": "staticwebassets/satishna/29dcd30a-5cbd-4aa5-a107-e377c3ea16c8.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/3094907a-3021-408d-959d-30c56bc75676.jpeg",
+      "PackagePath": "staticwebassets/satishna/3094907a-3021-408d-959d-30c56bc75676.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/36065255-3b90-4279-ab09-535500ebaad2.jpeg",
+      "PackagePath": "staticwebassets/satishna/36065255-3b90-4279-ab09-535500ebaad2.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/39d16cab-e692-40d2-9254-9c046c443e8b.jpeg",
+      "PackagePath": "staticwebassets/satishna/39d16cab-e692-40d2-9254-9c046c443e8b.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/3d314683-98a6-498d-ad63-9a1ff499062f.jpeg",
+      "PackagePath": "staticwebassets/satishna/3d314683-98a6-498d-ad63-9a1ff499062f.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/3f330b1a-48f7-43af-95f7-02b17ff82417.jpeg",
+      "PackagePath": "staticwebassets/satishna/3f330b1a-48f7-43af-95f7-02b17ff82417.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/410e6efe-044c-4a0c-84da-c7f9b2056e5f.jpeg",
+      "PackagePath": "staticwebassets/satishna/410e6efe-044c-4a0c-84da-c7f9b2056e5f.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/44862fc7-6d52-47b5-b4b7-9f20401145a8.jpeg",
+      "PackagePath": "staticwebassets/satishna/44862fc7-6d52-47b5-b4b7-9f20401145a8.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/47706847-b0fd-4b48-b0af-ae246b288575.jpeg",
+      "PackagePath": "staticwebassets/satishna/47706847-b0fd-4b48-b0af-ae246b288575.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/4877f1ce-99bc-44e9-8443-d5b610915deb.jpeg",
+      "PackagePath": "staticwebassets/satishna/4877f1ce-99bc-44e9-8443-d5b610915deb.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/4b683c3f-f87c-4e0f-8a64-95a337a4cafc.jpeg",
+      "PackagePath": "staticwebassets/satishna/4b683c3f-f87c-4e0f-8a64-95a337a4cafc.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/5112ea26-56ef-4f29-ac77-cb96eb87bf9a.jpeg",
+      "PackagePath": "staticwebassets/satishna/5112ea26-56ef-4f29-ac77-cb96eb87bf9a.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/53d21e35-0d5d-453b-a0f6-57e2e73ee0e9.jpeg",
+      "PackagePath": "staticwebassets/satishna/53d21e35-0d5d-453b-a0f6-57e2e73ee0e9.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/54132874-45cc-4763-ac2b-a45e2b37ec65.jpeg",
+      "PackagePath": "staticwebassets/satishna/54132874-45cc-4763-ac2b-a45e2b37ec65.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/57f42bc9-4db8-47e5-a449-b895aed4997d.jpeg",
+      "PackagePath": "staticwebassets/satishna/57f42bc9-4db8-47e5-a449-b895aed4997d.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/6222eda9-b38d-4a0f-96e2-c8f9ab6be463.jpeg",
+      "PackagePath": "staticwebassets/satishna/6222eda9-b38d-4a0f-96e2-c8f9ab6be463.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/6780150d-523a-463a-85b6-6cb1735590e8.jpeg",
+      "PackagePath": "staticwebassets/satishna/6780150d-523a-463a-85b6-6cb1735590e8.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/6F198A35-9621-4BDC-965C-FA74B2678CD6.jpeg",
+      "PackagePath": "staticwebassets/satishna/6F198A35-9621-4BDC-965C-FA74B2678CD6.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/7c98e151-2b43-4840-9311-02ae095d8659.jpeg",
+      "PackagePath": "staticwebassets/satishna/7c98e151-2b43-4840-9311-02ae095d8659.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/84b96fbb-c59a-4048-8e85-35a3ff560b68.jpeg",
+      "PackagePath": "staticwebassets/satishna/84b96fbb-c59a-4048-8e85-35a3ff560b68.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/880543c4-0a87-4af7-a1d9-4943b3d64757.jpeg",
+      "PackagePath": "staticwebassets/satishna/880543c4-0a87-4af7-a1d9-4943b3d64757.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/90a2b698-36f2-42cf-96d7-259ec2aa58eb.jpeg",
+      "PackagePath": "staticwebassets/satishna/90a2b698-36f2-42cf-96d7-259ec2aa58eb.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/96ecdd9d-4991-4d69-9df6-708a83651517.jpeg",
+      "PackagePath": "staticwebassets/satishna/96ecdd9d-4991-4d69-9df6-708a83651517.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/9b2a8443-3447-4651-a493-15e3c068b117.jpeg",
+      "PackagePath": "staticwebassets/satishna/9b2a8443-3447-4651-a493-15e3c068b117.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/a1fca192-74ba-4033-9184-3687ec899d55.jpeg",
+      "PackagePath": "staticwebassets/satishna/a1fca192-74ba-4033-9184-3687ec899d55.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/a6fc55ff-cb86-4340-b3a5-e3c3c7465d95.jpeg",
+      "PackagePath": "staticwebassets/satishna/a6fc55ff-cb86-4340-b3a5-e3c3c7465d95.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/a709bfad-8bab-4e05-8434-c0554eadf6d1.jpeg",
+      "PackagePath": "staticwebassets/satishna/a709bfad-8bab-4e05-8434-c0554eadf6d1.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/aadf6adc-5333-4a8f-b930-bd6469ada9bc.jpeg",
+      "PackagePath": "staticwebassets/satishna/aadf6adc-5333-4a8f-b930-bd6469ada9bc.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/b6d9127d-6768-422c-9782-2365d36c8b64.jpeg",
+      "PackagePath": "staticwebassets/satishna/b6d9127d-6768-422c-9782-2365d36c8b64.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/b722a7f7-9c5d-4a0b-99f3-0c7e7d109270.jpeg",
+      "PackagePath": "staticwebassets/satishna/b722a7f7-9c5d-4a0b-99f3-0c7e7d109270.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/b910ec27-15a8-433f-8b5a-04c1bb90fe74.jpeg",
+      "PackagePath": "staticwebassets/satishna/b910ec27-15a8-433f-8b5a-04c1bb90fe74.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/c1dbda2b-a388-4591-b790-1068c6356b7d.jpeg",
+      "PackagePath": "staticwebassets/satishna/c1dbda2b-a388-4591-b790-1068c6356b7d.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/c214a543-8586-4aea-baa1-88545b006a46.jpeg",
+      "PackagePath": "staticwebassets/satishna/c214a543-8586-4aea-baa1-88545b006a46.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/cc331389-5dbf-4950-b4be-9697dbb39801.jpeg",
+      "PackagePath": "staticwebassets/satishna/cc331389-5dbf-4950-b4be-9697dbb39801.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/cd6cd206-9d7c-46fb-97b9-12c16cad2874.jpeg",
+      "PackagePath": "staticwebassets/satishna/cd6cd206-9d7c-46fb-97b9-12c16cad2874.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/cf93dac0-f3ba-4667-86ae-3e9c9b9f69b1.jpeg",
+      "PackagePath": "staticwebassets/satishna/cf93dac0-f3ba-4667-86ae-3e9c9b9f69b1.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/d9d04c9b-f815-4d7a-a7d0-d5f896c95deb.jpeg",
+      "PackagePath": "staticwebassets/satishna/d9d04c9b-f815-4d7a-a7d0-d5f896c95deb.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/e3d5433b-8ce4-4faa-b362-b56bd9e4f21e.jpeg",
+      "PackagePath": "staticwebassets/satishna/e3d5433b-8ce4-4faa-b362-b56bd9e4f21e.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/e6a9c7e7-4c35-4d5f-9cda-2255d5fc6c48.jpeg",
+      "PackagePath": "staticwebassets/satishna/e6a9c7e7-4c35-4d5f-9cda-2255d5fc6c48.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/ecbd6e75-4691-4e1e-9c85-7994ab960b04.jpeg",
+      "PackagePath": "staticwebassets/satishna/ecbd6e75-4691-4e1e-9c85-7994ab960b04.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/ed9ee250-3e8f-4b4a-8ccd-88b9b177516b.jpeg",
+      "PackagePath": "staticwebassets/satishna/ed9ee250-3e8f-4b4a-8ccd-88b9b177516b.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/ee90452b-60a1-4ea1-9d8b-6039a4b47766.jpeg",
+      "PackagePath": "staticwebassets/satishna/ee90452b-60a1-4ea1-9d8b-6039a4b47766.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/satishna/5ea8188d-42a6-4bfb-aa54-011dbb6da148.jpeg",
+      "PackagePath": "staticwebassets/satishna/satishna/5ea8188d-42a6-4bfb-aa54-011dbb6da148.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/satishna/7ade5291-bd22-4bed-b099-5d235d9038e9.jpeg",
+      "PackagePath": "staticwebassets/satishna/satishna/7ade5291-bd22-4bed-b099-5d235d9038e9.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/satishna/satishna/dc9b7181-8304-4939-aeaf-b7c9b0bfcb23.jpeg",
+      "PackagePath": "staticwebassets/satishna/satishna/dc9b7181-8304-4939-aeaf-b7c9b0bfcb23.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/ajax-loader.gif",
+      "PackagePath": "staticwebassets/template/css/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/animate.css",
+      "PackagePath": "staticwebassets/template/css/animate.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/template/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color-style.css",
+      "PackagePath": "staticwebassets/template/css/color-style.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/blue.css",
+      "PackagePath": "staticwebassets/template/css/color/blue.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/deep-purple.css",
+      "PackagePath": "staticwebassets/template/css/color/deep-purple.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/default.css",
+      "PackagePath": "staticwebassets/template/css/color/default.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/green.css",
+      "PackagePath": "staticwebassets/template/css/color/green.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/grey.css",
+      "PackagePath": "staticwebassets/template/css/color/grey.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/lime.css",
+      "PackagePath": "staticwebassets/template/css/color/lime.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/orange.css",
+      "PackagePath": "staticwebassets/template/css/color/orange.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/pink.css",
+      "PackagePath": "staticwebassets/template/css/color/pink.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/purple.css",
+      "PackagePath": "staticwebassets/template/css/color/purple.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/color/red.css",
+      "PackagePath": "staticwebassets/template/css/color/red.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/template/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/jquery.fancybox.css",
+      "PackagePath": "staticwebassets/template/css/jquery.fancybox.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/jquery.mb.YTPlayer.min.css",
+      "PackagePath": "staticwebassets/template/css/jquery.mb.YTPlayer.min.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/loading.gif",
+      "PackagePath": "staticwebassets/template/css/loading.gif"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/magnific-popup.css",
+      "PackagePath": "staticwebassets/template/css/magnific-popup.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/off-canvas.css",
+      "PackagePath": "staticwebassets/template/css/off-canvas.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/owl.carousel.css",
+      "PackagePath": "staticwebassets/template/css/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/responsive.css",
+      "PackagePath": "staticwebassets/template/css/responsive.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/rsmenu-main.css",
+      "PackagePath": "staticwebassets/template/css/rsmenu-main.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/rsmenu-transitions.css",
+      "PackagePath": "staticwebassets/template/css/rsmenu-transitions.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/slick-theme.css",
+      "PackagePath": "staticwebassets/template/css/slick-theme.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/slick.css",
+      "PackagePath": "staticwebassets/template/css/slick.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/spacing.css",
+      "PackagePath": "staticwebassets/template/css/spacing.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/timeTo.css",
+      "PackagePath": "staticwebassets/template/css/timeTo.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/css/timeline.css",
+      "PackagePath": "staticwebassets/template/css/timeline.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/Flaticon.eot",
+      "PackagePath": "staticwebassets/template/fonts/Flaticon.eot"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/Flaticon.svg",
+      "PackagePath": "staticwebassets/template/fonts/Flaticon.svg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/Flaticon.ttf",
+      "PackagePath": "staticwebassets/template/fonts/Flaticon.ttf"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/Flaticon.woff",
+      "PackagePath": "staticwebassets/template/fonts/Flaticon.woff"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/template/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/_flaticon.scss",
+      "PackagePath": "staticwebassets/template/fonts/_flaticon.scss"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/flaticon.css",
+      "PackagePath": "staticwebassets/template/fonts/flaticon.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/flaticon.html",
+      "PackagePath": "staticwebassets/template/fonts/flaticon.html"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/template/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/template/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/template/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/template/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/template/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fonts2/Flaticon.eot",
+      "PackagePath": "staticwebassets/template/fonts/fonts2/Flaticon.eot"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fonts2/Flaticon.svg",
+      "PackagePath": "staticwebassets/template/fonts/fonts2/Flaticon.svg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fonts2/Flaticon.ttf",
+      "PackagePath": "staticwebassets/template/fonts/fonts2/Flaticon.ttf"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fonts2/Flaticon.woff",
+      "PackagePath": "staticwebassets/template/fonts/fonts2/Flaticon.woff"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fonts2/_flaticon.scss",
+      "PackagePath": "staticwebassets/template/fonts/fonts2/_flaticon.scss"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fonts2/flaticon.css",
+      "PackagePath": "staticwebassets/template/fonts/fonts2/flaticon.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/fonts/fonts2/flaticon.html",
+      "PackagePath": "staticwebassets/template/fonts/fonts2/flaticon.html"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/1.jpg",
+      "PackagePath": "staticwebassets/template/images/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/about/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/about.jpg",
+      "PackagePath": "staticwebassets/template/images/about/about.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/about2.jpg",
+      "PackagePath": "staticwebassets/template/images/about/about2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/about3.jpeg",
+      "PackagePath": "staticwebassets/template/images/about/about3.jpeg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/about3.jpg",
+      "PackagePath": "staticwebassets/template/images/about/about3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/about3.png",
+      "PackagePath": "staticwebassets/template/images/about/about3.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/about_me.jpg",
+      "PackagePath": "staticwebassets/template/images/about/about_me.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/australia.png",
+      "PackagePath": "staticwebassets/template/images/about/australia.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/china.png",
+      "PackagePath": "staticwebassets/template/images/about/china.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/counter-up.jpg",
+      "PackagePath": "staticwebassets/template/images/about/counter-up.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/counter-up2.jpg",
+      "PackagePath": "staticwebassets/template/images/about/counter-up2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/expanding-goal.jpg",
+      "PackagePath": "staticwebassets/template/images/about/expanding-goal.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/history.jpg",
+      "PackagePath": "staticwebassets/template/images/about/history.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/history2.jpg",
+      "PackagePath": "staticwebassets/template/images/about/history2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/home7.jpg",
+      "PackagePath": "staticwebassets/template/images/about/home7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/india.png",
+      "PackagePath": "staticwebassets/template/images/about/india.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/mission1.jpg",
+      "PackagePath": "staticwebassets/template/images/about/mission1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/mission2.jpg",
+      "PackagePath": "staticwebassets/template/images/about/mission2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/mission3.jpg",
+      "PackagePath": "staticwebassets/template/images/about/mission3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/signature.png",
+      "PackagePath": "staticwebassets/template/images/about/signature.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/signature2.png",
+      "PackagePath": "staticwebassets/template/images/about/signature2.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/united-states.png",
+      "PackagePath": "staticwebassets/template/images/about/united-states.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/video-icon.png",
+      "PackagePath": "staticwebassets/template/images/about/video-icon.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/about/vision.jpg",
+      "PackagePath": "staticwebassets/template/images/about/vision.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/1.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/banner/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/about.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/about.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/banner-home.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/banner-home.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/banner7.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/banner7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/blog.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/blog.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/contact.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/contact.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/project.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/project.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/service-details.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/service-details.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/service.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/service.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/shape.png",
+      "PackagePath": "staticwebassets/template/images/banner/shape.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/team.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/team.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/banner/testimonial.jpg",
+      "PackagePath": "staticwebassets/template/images/banner/testimonial.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/bg/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/about-home8-bg.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/about-home8-bg.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/bg1.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/bg1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/bg2.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/bg2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/bg3.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/bg3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/bg8.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/bg8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/countdown.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/countdown.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/counter-bg-style2.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/counter-bg-style2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/counter-bg.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/counter-bg.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/cta-bg.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/cta-bg.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/home7-style.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/home7-style.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/home8-banner-bg.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/home8-banner-bg.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/home8-style.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/home8-style.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/testimonial-bg.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/testimonial-bg.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/video-bg.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/video-bg.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/bg/video-bg2.jpg",
+      "PackagePath": "staticwebassets/template/images/bg/video-bg2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/1.jpg",
+      "PackagePath": "staticwebassets/template/images/blog-details/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/comment.png",
+      "PackagePath": "staticwebassets/template/images/blog-details/comment.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/map-marker.png",
+      "PackagePath": "staticwebassets/template/images/blog-details/map-marker.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/mid1.jpg",
+      "PackagePath": "staticwebassets/template/images/blog-details/mid1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/mid2.jpg",
+      "PackagePath": "staticwebassets/template/images/blog-details/mid2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/mid3.jpg",
+      "PackagePath": "staticwebassets/template/images/blog-details/mid3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/sm1.jpg",
+      "PackagePath": "staticwebassets/template/images/blog-details/sm1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/sm2.jpg",
+      "PackagePath": "staticwebassets/template/images/blog-details/sm2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog-details/sm3.jpg",
+      "PackagePath": "staticwebassets/template/images/blog-details/sm3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/1.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/2.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/3.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/4.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/5.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/6.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/blog/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/admin.png",
+      "PackagePath": "staticwebassets/template/images/blog/admin.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/author/1.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/author/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/author/2.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/author/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/author/3.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/author/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/author/4.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/author/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/author/5.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/author/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/author/6.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/author/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/author/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/blog/author/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/latest/1.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/latest/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/latest/2.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/latest/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/latest/3.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/latest/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/latest/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/blog/latest/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/t1.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/t1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/t2.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/t2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blog/t3.jpg",
+      "PackagePath": "staticwebassets/template/images/blog/t3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blogpage/1.jpg",
+      "PackagePath": "staticwebassets/template/images/blogpage/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blogpage/2.jpg",
+      "PackagePath": "staticwebassets/template/images/blogpage/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blogpage/3.jpg",
+      "PackagePath": "staticwebassets/template/images/blogpage/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blogpage/4.jpg",
+      "PackagePath": "staticwebassets/template/images/blogpage/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/blogpage/5.jpg",
+      "PackagePath": "staticwebassets/template/images/blogpage/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/cart/1.jpg",
+      "PackagePath": "staticwebassets/template/images/cart/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/cart/2.jpg",
+      "PackagePath": "staticwebassets/template/images/cart/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/cart/3.jpg",
+      "PackagePath": "staticwebassets/template/images/cart/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/cart/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/cart/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/choose-us/1.png",
+      "PackagePath": "staticwebassets/template/images/choose-us/1.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/choose-us/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/choose-us/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/circle.png",
+      "PackagePath": "staticwebassets/template/images/circle.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/close.png",
+      "PackagePath": "staticwebassets/template/images/close.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/counter/1.jpg",
+      "PackagePath": "staticwebassets/template/images/counter/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/counter/2.jpg",
+      "PackagePath": "staticwebassets/template/images/counter/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/1.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/10.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/10.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/11.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/11.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/12.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/12.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/13.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/13.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/14.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/14.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/15.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/15.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/16.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/16.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/17.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/17.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/18.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/18.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/2.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/3.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/4.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/5.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/6.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/7.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/8.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/9.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/9.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/courses-details.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/courses-details.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/instructor.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/instructor.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/kids1.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/kids1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/kids2.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/kids2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/kids3.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/kids3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style7/1.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style7/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style7/2.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style7/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style7/3.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style7/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style7/4.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style7/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style7/5.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style7/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style7/6.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style7/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style7/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/courses/style7/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style8/1.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style8/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style8/2.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style8/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style8/3.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style8/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style8/4.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style8/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/courses/style8/5.jpg",
+      "PackagePath": "staticwebassets/template/images/courses/style8/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/1.jpg",
+      "PackagePath": "staticwebassets/template/images/events/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/2.jpg",
+      "PackagePath": "staticwebassets/template/images/events/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/3.jpg",
+      "PackagePath": "staticwebassets/template/images/events/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/4.jpg",
+      "PackagePath": "staticwebassets/template/images/events/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/5.jpg",
+      "PackagePath": "staticwebassets/template/images/events/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/6.jpg",
+      "PackagePath": "staticwebassets/template/images/events/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/7.jpg",
+      "PackagePath": "staticwebassets/template/images/events/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/8.jpg",
+      "PackagePath": "staticwebassets/template/images/events/8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/9.jpg",
+      "PackagePath": "staticwebassets/template/images/events/9.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/event-details.jpg",
+      "PackagePath": "staticwebassets/template/images/events/event-details.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/kids/kids1.jpg",
+      "PackagePath": "staticwebassets/template/images/events/kids/kids1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/kids/kids2.jpg",
+      "PackagePath": "staticwebassets/template/images/events/kids/kids2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/events/kids/kids3.jpg",
+      "PackagePath": "staticwebassets/template/images/events/kids/kids3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/fav-.png",
+      "PackagePath": "staticwebassets/template/images/fav-.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/fav.png",
+      "PackagePath": "staticwebassets/template/images/fav.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/fav5.png",
+      "PackagePath": "staticwebassets/template/images/fav5.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/flickr/1.jpg",
+      "PackagePath": "staticwebassets/template/images/flickr/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/flickr/2.jpg",
+      "PackagePath": "staticwebassets/template/images/flickr/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/flickr/3.jpg",
+      "PackagePath": "staticwebassets/template/images/flickr/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/flickr/4.jpg",
+      "PackagePath": "staticwebassets/template/images/flickr/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/flickr/5.jpg",
+      "PackagePath": "staticwebassets/template/images/flickr/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/flickr/6.jpg",
+      "PackagePath": "staticwebassets/template/images/flickr/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/flickr/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/flickr/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/footer-widgets/1.jpg",
+      "PackagePath": "staticwebassets/template/images/footer-widgets/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/footer-widgets/2.jpg",
+      "PackagePath": "staticwebassets/template/images/footer-widgets/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/footer-widgets/3.jpg",
+      "PackagePath": "staticwebassets/template/images/footer-widgets/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/footer-widgets/4.jpg",
+      "PackagePath": "staticwebassets/template/images/footer-widgets/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/footer-widgets/5.jpg",
+      "PackagePath": "staticwebassets/template/images/footer-widgets/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/footer-widgets/6.jpg",
+      "PackagePath": "staticwebassets/template/images/footer-widgets/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/footer-widgets/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/footer-widgets/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/1.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/2.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/3.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/4.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/5.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/6.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/kids/1 (1).jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/kids/1 (1).jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/kids/1.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/kids/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/kids/2.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/kids/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/kids/3.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/kids/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/kids/4.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/kids/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery/kids/5.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery/kids/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery2/1.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery2/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery2/2.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery2/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery2/3.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery2/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery2/4.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery2/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/gallery2/5.jpg",
+      "PackagePath": "staticwebassets/template/images/gallery2/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/home2-slider/1.jpg",
+      "PackagePath": "staticwebassets/template/images/home2-slider/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/home2-slider/2.jpg",
+      "PackagePath": "staticwebassets/template/images/home2-slider/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/home2-slider/3.jpg",
+      "PackagePath": "staticwebassets/template/images/home2-slider/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/home2-slider/4.jpg",
+      "PackagePath": "staticwebassets/template/images/home2-slider/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/home2-slider/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/home2-slider/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/1.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/2.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/3.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/4.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/5.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/6.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/7.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/instagram/8.jpg",
+      "PackagePath": "staticwebassets/template/images/instagram/8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/loading.gif",
+      "PackagePath": "staticwebassets/template/images/loading.gif"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/logo-footer.png",
+      "PackagePath": "staticwebassets/template/images/logo-footer.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/logo-footer2.png",
+      "PackagePath": "staticwebassets/template/images/logo-footer2.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/logo-white.png",
+      "PackagePath": "staticwebassets/template/images/logo-white.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/logo.png",
+      "PackagePath": "staticwebassets/template/images/logo.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/logo2.png",
+      "PackagePath": "staticwebassets/template/images/logo2.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/map-marker.png",
+      "PackagePath": "staticwebassets/template/images/map-marker.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/next.png",
+      "PackagePath": "staticwebassets/template/images/next.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/partner/1.png",
+      "PackagePath": "staticwebassets/template/images/partner/1.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/partner/2.png",
+      "PackagePath": "staticwebassets/template/images/partner/2.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/partner/3.png",
+      "PackagePath": "staticwebassets/template/images/partner/3.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/partner/4.png",
+      "PackagePath": "staticwebassets/template/images/partner/4.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/partner/5.png",
+      "PackagePath": "staticwebassets/template/images/partner/5.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/porder-img.png",
+      "PackagePath": "staticwebassets/template/images/porder-img.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/products/1.jpg",
+      "PackagePath": "staticwebassets/template/images/products/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/products/2.jpg",
+      "PackagePath": "staticwebassets/template/images/products/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/products/3.jpg",
+      "PackagePath": "staticwebassets/template/images/products/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/products/4.jpg",
+      "PackagePath": "staticwebassets/template/images/products/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/products/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/products/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project-details/1.jpg",
+      "PackagePath": "staticwebassets/template/images/project-details/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project-details/2.jpg",
+      "PackagePath": "staticwebassets/template/images/project-details/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project-details/3.jpg",
+      "PackagePath": "staticwebassets/template/images/project-details/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project-details/4.jpg",
+      "PackagePath": "staticwebassets/template/images/project-details/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project-details/5.jpg",
+      "PackagePath": "staticwebassets/template/images/project-details/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project-details/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/project-details/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project-details/comment.png",
+      "PackagePath": "staticwebassets/template/images/project-details/comment.png"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/1.jpg",
+      "PackagePath": "staticwebassets/template/images/project/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/2.jpg",
+      "PackagePath": "staticwebassets/template/images/project/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/3.jpg",
+      "PackagePath": "staticwebassets/template/images/project/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/4.jpg",
+      "PackagePath": "staticwebassets/template/images/project/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/5.jpg",
+      "PackagePath": "staticwebassets/template/images/project/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/6.jpg",
+      "PackagePath": "staticwebassets/template/images/project/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/7.jpg",
+      "PackagePath": "staticwebassets/template/images/project/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/project/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home1.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home2.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home3.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home4.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home5.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home6.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home7.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/project/home8.jpg",
+      "PackagePath": "staticwebassets/template/images/project/home8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services-slider/1.jpg",
+      "PackagePath": "staticwebassets/template/images/services-slider/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services-slider/2.jpg",
+      "PackagePath": "staticwebassets/template/images/services-slider/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services-slider/3.jpg",
+      "PackagePath": "staticwebassets/template/images/services-slider/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services-slider/4.jpg",
+      "PackagePath": "staticwebassets/template/images/services-slider/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/1.jpg",
+      "PackagePath": "staticwebassets/template/images/services/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/10.jpg",
+      "PackagePath": "staticwebassets/template/images/services/10.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/11.jpg",
+      "PackagePath": "staticwebassets/template/images/services/11.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/12.jpg",
+      "PackagePath": "staticwebassets/template/images/services/12.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/13.jpg",
+      "PackagePath": "staticwebassets/template/images/services/13.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/14.jpg",
+      "PackagePath": "staticwebassets/template/images/services/14.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/2.jpg",
+      "PackagePath": "staticwebassets/template/images/services/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/3.jpg",
+      "PackagePath": "staticwebassets/template/images/services/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/4.jpg",
+      "PackagePath": "staticwebassets/template/images/services/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/5.jpg",
+      "PackagePath": "staticwebassets/template/images/services/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/6.jpg",
+      "PackagePath": "staticwebassets/template/images/services/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/7.jpg",
+      "PackagePath": "staticwebassets/template/images/services/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/8.jpg",
+      "PackagePath": "staticwebassets/template/images/services/8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/9.jpg",
+      "PackagePath": "staticwebassets/template/images/services/9.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/services/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/details1.jpg",
+      "PackagePath": "staticwebassets/template/images/services/details1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/services/details2.jpg",
+      "PackagePath": "staticwebassets/template/images/services/details2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/10.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/10.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/11.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/11.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/12.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/12.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/5.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/6.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/7.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/8.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/9.jpg",
+      "PackagePath": "staticwebassets/template/images/shop-single/9.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop-single/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/shop-single/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/1.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/10.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/10.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/11.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/11.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/12.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/12.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/13.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/13.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/14.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/14.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/15.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/15.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/16.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/16.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/17.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/17.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/18.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/18.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/19.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/19.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/2.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/3.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/4.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/5.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/6.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/7.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/8.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/9.jpg",
+      "PackagePath": "staticwebassets/template/images/shop/9.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/shop/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/shop/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/single/1.jpg",
+      "PackagePath": "staticwebassets/template/images/single/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/banner.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/banner.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home1/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/slider/home1/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home1/slide1.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home1/slide1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home1/slide2.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home1/slide2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home1/slide3.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home1/slide3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home2/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/slider/home2/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home2/slide1.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home2/slide1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home2/slide2.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home2/slide2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home2/slide3.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home2/slide3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home3/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/slider/home3/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home3/slide1.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home3/slide1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home3/slide2.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home3/slide2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home3/slide3.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home3/slide3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home4/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/slider/home4/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home4/slide1.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home4/slide1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home4/slide2.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home4/slide2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home4/slide3.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home4/slide3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home5/1_1.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home5/1_1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home5/1_2.jpg",
+      "PackagePath": "staticwebassets/template/images/slider/home5/1_2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/slider/home5/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/slider/home5/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/1.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/10.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/10.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/11.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/11.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/12.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/12.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/2.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/3.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/4.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/5.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/6.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/7.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/8.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/8.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/9.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/9.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/teachers/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/teachers/team-single.jpg",
+      "PackagePath": "staticwebassets/template/images/teachers/team-single.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/1.jpg",
+      "PackagePath": "staticwebassets/template/images/team/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/2.jpg",
+      "PackagePath": "staticwebassets/template/images/team/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/3.jpg",
+      "PackagePath": "staticwebassets/template/images/team/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/4.jpg",
+      "PackagePath": "staticwebassets/template/images/team/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/5.jpg",
+      "PackagePath": "staticwebassets/template/images/team/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/6.jpg",
+      "PackagePath": "staticwebassets/template/images/team/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/7.jpg",
+      "PackagePath": "staticwebassets/template/images/team/7.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/team/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/team/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/testimonial/1.jpg",
+      "PackagePath": "staticwebassets/template/images/testimonial/1.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/testimonial/2.jpg",
+      "PackagePath": "staticwebassets/template/images/testimonial/2.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/testimonial/3.jpg",
+      "PackagePath": "staticwebassets/template/images/testimonial/3.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/testimonial/4.jpg",
+      "PackagePath": "staticwebassets/template/images/testimonial/4.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/testimonial/5.jpg",
+      "PackagePath": "staticwebassets/template/images/testimonial/5.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/testimonial/6.jpg",
+      "PackagePath": "staticwebassets/template/images/testimonial/6.jpg"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/images/testimonial/Thumbs.db",
+      "PackagePath": "staticwebassets/template/images/testimonial/Thumbs.db"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/template/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/color-style.js",
+      "PackagePath": "staticwebassets/template/js/color-style.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/contact.form.js",
+      "PackagePath": "staticwebassets/template/js/contact.form.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/hammer.min.js",
+      "PackagePath": "staticwebassets/template/js/hammer.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets/template/js/imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets/template/js/isotope.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/jquery.counterup.min.js",
+      "PackagePath": "staticwebassets/template/js/jquery.counterup.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/jquery.fancybox.pack.js",
+      "PackagePath": "staticwebassets/template/js/jquery.fancybox.pack.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets/template/js/jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/jquery.mb.YTPlayer.min.js",
+      "PackagePath": "staticwebassets/template/js/jquery.mb.YTPlayer.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/jquery.min.js",
+      "PackagePath": "staticwebassets/template/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/main.js",
+      "PackagePath": "staticwebassets/template/js/main.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets/template/js/modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/template/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/plugins.js",
+      "PackagePath": "staticwebassets/template/js/plugins.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/rsmenu-main.js",
+      "PackagePath": "staticwebassets/template/js/rsmenu-main.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/slick.min.js",
+      "PackagePath": "staticwebassets/template/js/slick.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/time-circle.js",
+      "PackagePath": "staticwebassets/template/js/time-circle.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/timeline.js",
+      "PackagePath": "staticwebassets/template/js/timeline.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/waypoints.min.js",
+      "PackagePath": "staticwebassets/template/js/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/js/wow.min.js",
+      "PackagePath": "staticwebassets/template/js/wow.min.js"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/rs-animation.css",
+      "PackagePath": "staticwebassets/template/rs-animation.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/rs-animation.less",
+      "PackagePath": "staticwebassets/template/rs-animation.less"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/style.css",
+      "PackagePath": "staticwebassets/template/style.css"
+    },
+    {
+      "Id": "/Users/satishnashakya/Projects/ClassManagement_self/ClassManagement_self/wwwroot/template/style.less",
+      "PackagePath": "staticwebassets/template/style.less"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ClassManagement_self.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ClassManagement_self.props",
+      "PackagePath": "build\\ClassManagement_self.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ClassManagement_self.props",
+      "PackagePath": "buildMultiTargeting\\ClassManagement_self.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ClassManagement_self.props",
+      "PackagePath": "buildTransitive\\ClassManagement_self.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

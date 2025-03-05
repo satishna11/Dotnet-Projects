@@ -1,0 +1,364 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col-md-12 mt-4">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>Full Name</label><br />
+                        <input type="text" class="form-control txtFilterFullName" />
+                    </div>
+                    <div class="col-md-3 ">
+                        <label>Email</label><br />
+                        <input type="email" class="form-control  filterEmail" />
+                    </div>
+                    <div class="col-md-3">
+                        <label>Contact</label><br />
+                        <input type="text" class="form-control txtFilterContact" />
+                    </div>
+                    <div class="col-md-3">
+                        <br />
+                        <button type="button" class="btn btn-primary btnSearch ml-2">
+                            <i class="fa fa-search"></i> SEARCH
+                        </button>
+                        <button type="button" class="btn btn-success btnNew" style="float:right;">
+                            <i class="fa fa-plus"></i> NEW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover dtTable">
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Full Name</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Courses</th>
+                            <th>photo</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formModalLabel">Student Setup Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                    <div class="form-group col-md-6">
+                        <label> Full Name</label>
+                        <input type="text" class="form-control txtFullName" />
+                        <input type="hidden" class="form-control hdnStudentID" value="0" />
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Email</label>
+                        <input type="email" class="form-control txtEmail" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Contact</label>
+                        <input type="text" class="form-control Contact" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Courses</label>
+                        <select class="form-control ddlCourse">
+                            
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Photo</label>
+                        <input type="file" class="form-control fileupload" />
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary btnSubmit" id="btnSubmit">Submit</button>
+                <button type="button" class="btn btn-danger btnCancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section LocalScripts {
+    <script>
+               function uploadFile(callback) {
+    var fileInput = $('.fileupload')[0].files[0];
+    if (!fileInput) {
+        showToast("Stop", "Please upload an image", "error");
+        return;
+    }
+
+    var formData = new FormData();
+    formData.append("file", fileInput);
+
+    $.ajax({
+        url: '@Url.Action("UploadFile", "FileUpload")', // Endpoint for file upload
+        method: 'POST',
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function (res) {
+            if (res.success) {
+                callback(res.data); // Pass the file name/path to the callback
+            } else {
+                showToast("Stop", res.message, "error");
+            }
+        },
+        error: function (e) {
+            console.log(e);
+            showToast("Stop", "File upload failed", "error");
+        }
+    });
+}
+        var SaveUrl = '@Url.Action("SaveData", "Student")';
+        var GetDataUrl = '@Url.Action("GetAllData", "Student")';
+        var DeleteDataUrl = '@Url.Action("DeleteData", "Student")';
+        var GetDataByID = '@Url.Action("GetDataByID", "Student")';
+        var GetCourseInfo='@Url.Action("GetAllData", "Courseinfo")';
+        $(document).ready(function () {
+            loadData();
+            loadCourseInfo();
+        });
+        $(document).on('click', '.btnNew', function () {
+            $('#formModal').modal('show');
+        })
+        $(document).on('click', '.btnSearch', function () {
+            loadData();
+
+        });
+        function loadCourseInfo() {
+            $.ajax({
+                contentType: "application/json; charset=utf-8",
+                method: 'get',
+                url: GetCourseInfo,
+                success: function (response) {
+                    /*var res = JSON.parse(response.message);*/debugger;
+                    var res = response.data;
+                    var xyz = '<option value="0">--select--</option>';
+                    $.each(res, function (i, x) {
+                        xyz += '<option value="' + x.infoID + '" >' + x.title + '</option>';
+                    });
+
+                    $('.ddlCourse').html(xyz);
+                    $('.ddlFilterCourse').html(xyz);
+                },
+                error: function (e) {
+                    console.log(e);
+                },
+                beforeSend: function () {
+                    $.blockUI();
+                },
+                complete: function () {
+                    $.unblockUI();
+                }
+            });
+        }
+        $(document).on('click', '.btnSubmit', function () {
+
+            var obj = {
+                StudentID: +$('.hdnStudentID').val(),
+                InfoID: +$('.ddlCourse').val(),
+                FullName: $('.txtFullName').val(),
+                Email: $('.txtEmail').val(),
+                Contact: $('.Contact').val(),
+                Photo: '',
+            }
+            alert(obj.InfoID);
+            if (obj.FullName == '') {
+                showToast("Stop", "please enter Fullname", "error");
+            } else if (obj.Email == '') {
+                showToast("Stop", "please enter Email", "error");
+            } else if (obj.Contact == '') {
+                showToast("Stop", "please enter Conatct", "error");
+            }
+
+            else {
+                // Upload the file first
+                uploadFile(function (fileName) {
+                    // Set the file name/path in the form data
+                    obj.Photo = fileName;
+
+                    // Submit the form data
+                    $.ajax({
+                        contentType: "application/json; charset=utf-8",
+                        method: 'post',
+                        url: SaveUrl,
+                        data: JSON.stringify(obj),
+                        success: function (res) {
+                            if (res.success) {
+                                showToast("!!!", res.message, "success");
+                                clearForm();
+                                $('#formModal').modal('hide');
+                                loadData();
+                            } else {
+                                showToast("!!!", res.message, "error");
+                            }
+                        },
+                        error: function (e) {
+                            console.log(e);
+                        },
+                        beforeSend: function () {
+                            // Block UI if needed
+                            //$.blockUI();
+                        },
+                        complete: function () {
+                            // Unblock UI if needed
+                            //$.unblockUI();
+                        }
+                    });
+                });
+            }
+        });
+        $(document).on('click', '.btnEdit', function () {
+            var btn = $(this);
+            var id = $(this).data('key');
+            $.ajax({
+                contentType: "application/json; charset=utf-8",
+                method: 'get',
+                url: GetDataByID + '?id=' + id,
+                success: function (res) {
+                    debugger;
+                    if (res.success) {
+                        $('#formModal').modal('show');
+                        $('.hdnStudentID').val(id);
+                        $('.txtFullName').val(res.data.fullName);
+                        $('.txtEmail').val(res.data.email);
+                        $('.Contact').val(res.data.contact);
+                        $('.ddlCourse').val(res.data.infoID);
+                        imageName = res.data.photo;
+
+                    } else {
+                        showToast("!!!", res.message, "error");
+                    }
+                },
+                error: function (e) {
+                    console.log(e);
+                },
+                beforeSend: function () {
+                    $.blockUI();
+                },
+                complete: function () {
+                    $.unblockUI();
+                }
+            });
+
+        });
+        function loadData() {
+            var fname = $(".txtFilterFullName").val() || '';
+            var email = $(".filterEmail").val() || '';
+            var contact = $(".txtFilterContact").val() || '';
+
+
+            $.ajax({
+                contentType: "application/json; charset=utf-8",
+                method: 'get',
+                url: GetDataUrl + '?fname=' + fname + '&email=' + email + '&contact=' + contact,
+
+
+                success: function (res) {
+                    debugger;
+                    var xyz = '';
+                    $.each(res.data, function (i, x) {
+                        xyz += '<tr>';
+                        xyz += '<td>' + (i + 1) + '</td>';
+                        xyz += '<td>' + x.fullName + '</td>';
+                        xyz += '<td>' + x.email + '</td>';
+                        xyz += '<td>' + x.contact + '</td>';
+                        xyz += '<td>' + x.courseInfo + '</td>';
+                        xyz += '<td><img src="/satishna/' + x.photo + '" alt="" width="50" height="50" /></td>';
+                        xyz += '<td><button type="button" class="btn btn-secondary btn-sm btnEdit" data-key="' + x.studentID + '"><i class="fa fa-edit"></i> EDIT</button>';
+                        xyz += '<button type="button" class="btn btn-danger btn-sm ml-2 btnDelete" data-key="' + x.studentID + '"> <i class="fa fa-trash"></i> DELETE</button ></td > ';
+                        xyz += '</tr>';
+                    });
+
+                    $('.data-body').html(xyz);
+                },
+                error: function (e) {
+                    console.log(e);
+                },
+                beforeSend: function () {
+                    $.blockUI();
+                },
+                complete: function () {
+                    $.unblockUI();
+                }
+            });
+        }
+        $(document).on('click', '.btnDelete', function () {
+            var btn = $(this);
+            $.confirm({
+                title: 'Confirm!',
+                type: 'red',
+                content: 'Are you sure to delete?',
+                buttons: {
+                    confirm: () => {
+                        var id = $(btn).data('key')
+                        deleteData(id);
+                    },
+                    cancel: function () {
+
+                    },
+                }
+            });
+        })
+
+        function clearForm() {
+            $('.hdnStudentID').val(0);
+            $('.txtFullName').val('');
+            $('.txtEmail').val('');
+            $('.Contact').val('');
+            imageName = '';
+        }
+        function deleteData(id) {
+            $.ajax({
+                contentType: "application/json; charset=utf-8",
+                method: 'get',
+                url: DeleteDataUrl + '?id=' + id,
+                success: function (res) {
+                    if (res.success) {
+                        showToast("!!!", res.message, "success");
+                        loadData();
+
+                    } else {
+                        showToast("!!!", res.message, "error");
+                    }
+                },
+                error: function (e) {
+                    console.log(e);
+                },
+                beforeSend: function () {
+                    $.blockUI();
+                },
+                complete: function () {
+                    $.unblockUI();
+                }
+            });
+        }
+
+
+    </script>
+
+    
+
+}
