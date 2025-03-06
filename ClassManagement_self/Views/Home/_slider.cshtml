@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Entity.ViewModel.DashboardSliderVM>
+@{
+    int loopCount = 0;
+}
+
+<div id="rs-slider" class="slider-overlay-2">
+    <div id="home-slider" class="rs-carousel owl-carousel" data-loop="true" data-items="4" data-margin="0" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="false" data-nav="true" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true" data-mobile-device-dots="true" data-ipad-device="1" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="1" data-md-device-nav="true" data-md-device-dots="false">
+       <!-- Item 1 -->
+        @foreach (var item in Model)
+        {
+            <div class="item @(loopCount++ ==0 ? "active":"");">
+                <img src="/satishna/@item.BackgroundImage" alt="Slide1" style="width:100%; height:auto; max-height:600px; object-fit:cover;" />
+                <div class="slide-content">
+                    <div class="display-table">
+                        <div class="display-table-cell">
+                            <div class="container text-center">
+                                <h1 class="slider-title" data-animation-in="fadeInLeft" data-animation-out="animate-out">@item.Title</h1>
+                                <p data-animation-in="fadeInUp" data-animation-out="animate-out" class="slider-desc">@item.SubTitle<br class="hidden-sm-dow"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

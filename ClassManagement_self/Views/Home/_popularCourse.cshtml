@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Entity.ViewModel.CourseInfoVM>;
+
+
+<div id="rs-courses" class="rs-courses sec-color sec-spacer">
+    <div class="container">
+        <div class="sec-title mb-50 text-center">
+            <h2>OUR POPULAR COURSES (@Model.Count())</h2>
+            <p>Fusce sem dolor, interdum in fficitur at, faucibus nec lorem. Sed nec molestie justo.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="true" data-nav="true" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="3" data-md-device-nav="true" data-md-device-dots="true">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="cource-item">
+                            <div class="cource-img">
+                                <img src="/satishna/@item.Thumbnail" alt="" style="width:300px; height:200px; object-fit:cover;" />
+                                <a class="image-link" href="courses-details.html" title="@item.Title">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                <span class="course-value">$@item.TotalPrice</span>
+                            </div>
+                            <div class="course-body">
+                                <a href="#" class="course-category">@item.CourseGroup</a>
+                                <h4 class="course-title"><a href="@Url.Action("CourseInfo", "Home",new{id = item.InfoID} )">@item.Title</a></h4>
+                                <div class="review-wrap">
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-empty"></li>
+                                    </ul>
+                                    <span class="review">25 Reviews</span>
+                                </div>
+                                <div class="course-desc">
+                                    <p>
+                                        @item.ShortDescription
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-time">
+                                    <span class="label">Course Time</span>
+                                    <span class="desc">@item.CourseTime</span>
+                                </div>
+                                <div class="course-student">
+                                    <span class="label">Course Student</span>
+                                    <span class="desc">@item.MaxStudent</span>
+                                </div>
+                                <div class="class-duration">
+                                    <span class="label">Class Duration</span>
+                                    <span class="desc">@item.DailyDuration</span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

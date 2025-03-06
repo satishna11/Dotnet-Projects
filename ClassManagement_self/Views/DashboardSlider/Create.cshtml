@@ -1,0 +1,382 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col-md-12 mt-4">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>Title</label><br />
+                        <input type="text" class="form-control txtFilterTitle" />
+                    </div>
+                    <div class="col-md-3">
+                        <label>Sub Title</label><br />
+                        <input type="text" class="form-control txtFilterSubTitle" />
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <label>Ordey Key</label><br />
+                        <input type="text" class="form-control txtFilterOrderKey" />
+                    </div>
+                    <div class="col-md-3">
+                        <br />
+                        <button type="button" class="btn btn-primary btnSearch ml-2">
+                            <i class="fa fa-search"></i> SEARCH
+                        </button>
+                        <button type="button" class="btn btn-success btnNew" style="float:right;">
+                            <i class="fa fa-plus"></i> NEW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover dtTable">
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Dashboard Slider Info</th>
+                            <th>Title</th>
+                            <th>Sub Title</th>
+                            <th>Background Image</th>
+                            <th>Valid From</th>
+                            <th>Valid To</th>
+                            <th>Order Key</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formModalLabel">Dashboard Slider Setup Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                    <div class="form-group col-md-12 mb-2">
+                        <label>Dashboard Slider Info</label>
+                        <textarea class="form-control txtDashboardSliderInfo">
+
+                        </textarea>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Title</label>
+                        <input type="text" class="form-control txtTitle" />
+                        <input type="hidden" class="form-control hdnSliderID" value="0" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Sub Title</label>
+                        <input type="text" class="form-control txtSubTitle" />
+                    </div>
+
+                    <div class="formgroup col-md-6 ">
+                        <label>Valid From</label><br />
+                        <input type="datetime" class="form-control  validFrom" />
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Valid To</label>
+                        <input type="datetime" class="form-control validTo" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Order Key</label>
+                        <input type="text" class="form-control orderKey" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Background Image</label>
+                        <input type="file" class="form-control fileupload" />
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btnClose" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary btnSubmit" id="btnSubmit">Submit</button>
+                <button type="button" class="btn btn-danger btnCancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section LocalScripts {
+    <script>
+        function uploadFile(callback) {
+    var fileInput = $('.fileupload')[0].files[0];
+    if (!fileInput) {
+        showToast("Stop", "Please upload an image", "error");
+        return;
+    }
+           
+
+    var formData = new FormData();
+    formData.append("file", fileInput);
+
+    $.ajax({
+        url: '@Url.Action("UploadFile", "FileUpload")', // Endpoint for file upload
+        method: 'POST',
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function (res) {
+            if (res.success) {
+                callback(res.data); // Pass the file name/path to the callback
+            } else {
+                showToast("Stop", res.message, "error");
+            }
+        },
+        error: function (e) {
+            console.log(e);
+            showToast("Stop", "File upload failed", "error");
+        }
+    });
+        }
+        $(document).on('click', '.btnClose', function () {
+            $('#formModal').modal('hide');
+        });
+        $(document).on('click', '.btnCancel', function () {
+            $.confirm({
+                title: 'Confirm!',
+                type: 'red',
+                content: 'Are you sure to clear form?',
+                buttons: {
+                    confirm: function () {
+                        clearForm();
+                        $('#formModal').modal('hide');
+                    },
+                    cancel: function () {
+
+                    },
+                }
+            });
+        });
+        $(document).on('click', '.btnSearch', function () {
+            loadData();
+        });
+        var SaveUrl = '@Url.Action("SaveData", "DashboardSlider")';
+        var GetDataUrl = '@Url.Action("GetAllData", "DashboardSlider")';
+        var DeleteDataUrl = '@Url.Action("DeleteData", "DashboardSlider")';
+        var GetDataByID = '@Url.Action("GetDataByID", "DashboardSlider")';
+
+
+        $(document).ready(function () {
+            loadData();
+        });
+        $(document).on('click', '.btnNew', function () {
+            $('#formModal').modal('show');
+        })
+
+        $(document).on('click', '.btnSubmit', function () {
+            // Validate required fields
+            var obj = {
+                Id: +$('.hdnSliderID').val(),
+                
+                DashboardSliderInfo: $('.txtDashboardSliderInfo').val(),
+                Title: $('.txtTitle').val(),
+                SubTitle: $('.txtSubTitle').val(),
+                ValidFrom: $('.validFrom').val(),
+                ValidTo: $('.validTo').val(),
+                OrderKey: +$('.orderKey').val(),
+                BackgroundImage: '' // Will be set after file upload
+            };
+            console.log("Form Data:", obj);
+            if (obj.Title == '') {
+                showToast("Stop", "Please enter Title", "error");
+            } else if (obj.DashboardSliderInfo == '') {
+                showToast("Stop", "Please enter Slider Info", "error");
+            } else if (obj.SubTitle == '') {
+                showToast("Stop", "Please enter SubTitle", "error");
+            } else if (obj.ValidFrom == '') {
+                showToast("Stop", "Please enter Valid From date", "error");
+            } else if (obj.ValidTo == '') {
+                showToast("Stop", "Please enter Valid To date", "error");
+            } else if (obj.OrderKey == '' || obj.OrderKey == 0) {
+                showToast("Stop", "Please enter a valid Order Key", "error");
+            } else {
+                // Upload the file first
+                uploadFile(function (fileName) {
+                    // Set the file name/path in the form data
+                    obj.BackgroundImage = fileName;
+
+                    // Submit the form data
+                    $.ajax({
+                        contentType: "application/json; charset=utf-8",
+                        method: 'post',
+                        url: SaveUrl,
+                        data: JSON.stringify(obj),
+                        success: function (res) {
+                            if (res.success) {
+                                showToast("!!!", res.message, "success");
+                                clearForm();
+                                $('#formModal').modal('hide');
+                                loadData();
+                            } else {
+                                showToast("!!!", res.message, "error");
+                            }
+                        },
+                        error: function (e) {
+                            console.log(e);
+                        },
+                        beforeSend: function () {
+                            // Block UI if needed
+                            //$.blockUI();
+                        },
+                        complete: function () {
+                            // Unblock UI if needed
+                            //$.unblockUI();
+                        }
+                    });
+                });
+            }
+        });
+        $(document).on('click', '.btnEdit', function () {
+            var btn = $(this);
+            var id = $(this).data('key');
+            $.ajax({
+                contentType: "application/json; charset=utf-8",
+                method: 'get',
+                url: GetDataByID + '?id=' + id,
+                success: function (res) {
+                    if (res.success) {
+                        $('#formModal').modal('show');
+                        $('.hdnSliderID').val(id); // Set the Id when editing
+                        $('.txtDashboardSliderInfo').val(res.data.dashboardSliderInfo);
+                        $('.txtTitle').val(res.data.title);
+                        $('.txtSubTitle').val(res.data.subTitle);
+                        $('.validFrom').val(res.data.validFrom);
+                        $('.validTo').val(res.data.validTo);
+                        $('.orderKey').val(res.data.orderKey);
+                        imageName = res.data.backgroundImage;
+                    } else {
+                        showToast("!!!", res.message, "error");
+                    }
+                },
+                error: function (e) {
+                    console.log(e);
+                },
+                beforeSend: function () {
+                    $.blockUI();
+                },
+                complete: function () {
+                    $.unblockUI();
+                }
+            });
+        });
+        function loadData() {
+
+            var title = $('.txtFilterTitle').val() || '';
+            var subtitle = $('.txtFilterSubTitle').val() || '';
+            var orderKey = $('.txtFilterOrderKey').val() || '';
+
+            $.ajax({
+                contentType: "application/json; charset=utf-8",
+                method: 'get',
+                url: GetDataUrl
+                    + '?SubTitle=' + subtitle
+                    + '&Title=' + title
+                    + '&Orderkey=' + orderKey,
+                success: function (res) {
+                    var xyz = '';
+                    $.each(res.data, function (i, x) {
+                        xyz += '<tr>';
+                        xyz += '<td>' + (i + 1) + '</td>';
+                        xyz += '<td>' + x.dashboardSliderInfo + '</td>';
+                        xyz += '<td>' + x.title + '</td>';
+                        xyz += '<td>' + x.subTitle + '</td>';
+                        /*xyz += '<td>' + x.backgroundImage + '</td>';*/
+                        xyz += '<td><img src="/satishna/' + x.backgroundImage + '" alt="" width="50" height="50" /></td>';
+                        xyz += '<td>' + x.validFrom + '</td>';
+                        xyz += '<td>' + x.validTo + '</td>';
+                        xyz += '<td>' + x.orderKey + '</td>';
+                        xyz += '<td><button type="button" class="btn btn-secondary btn-sm btnEdit" data-key="' + x.id + '"><i class="fa fa-edit"></i> EDIT</button>';
+                        xyz += '<button type="button" class="btn btn-danger btn-sm ml-2 btnDelete" data-key="' + x.id + '"> <i class="fa fa-trash"></i> DELETE</button ></td > ';
+                        xyz += '</tr>';
+                    });
+
+                    $('.data-body').html(xyz);
+                },
+                error: function (e) {
+                    console.log(e);
+                },
+                beforeSend: function () {
+                    $.blockUI();
+                },
+                complete: function () {
+                    $.unblockUI();
+                }
+            });
+        }
+        $(document).on('click', '.btnDelete', function () {
+            var btn = $(this);
+            $.confirm({
+                title: 'Confirm!',
+                type: 'red',
+                content: 'Are you sure to delete?',
+                buttons: {
+                    confirm: () => {
+                        debugger;
+                        var id = $(btn).data('key')
+                        deleteData(id);
+                    },
+                    cancel: function () {
+
+                    },
+                }
+            });
+        })
+
+        function clearForm() {
+            $('.hdnSliderID').val(0);
+            $('.txtDashboardSliderInfo').val('');
+            $('.txtTitle').val('');
+            $('.txtSubTitle').val('');
+            $('.validFrom').val('');
+            $('.validTo').val('');
+            $('.orderKey').val('');
+            imageName = '';
+        }
+
+        function deleteData(id) {
+            $.ajax({
+                contentType: "application/json; charset=utf-8",
+                method: 'get',
+                url: DeleteDataUrl + '?id=' + id,
+                success: function (res) {
+                    if (res.success) {
+                        showToast("!!!", res.message, "success");
+                        loadData();
+
+                    } else {
+                        showToast("!!!", res.message, "error");
+                    }
+                },
+                error: function (e) {
+                    console.log(e);
+                },
+                beforeSend: function () {
+                    $.blockUI();
+                },
+                complete: function () {
+                    $.unblockUI();
+                }
+            });
+        }
+
+    </script>
+
+
+
+}

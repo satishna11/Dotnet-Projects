@@ -1,0 +1,386 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col-md-12 mt-4">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>Full Name</label><br />
+                        <input type="text" class="form-control txtFilterFullName" />
+                    </div>
+                    <div class="col-md-3">
+                        <label>Designation</label><br />
+                        <input type="text" class="form-control  filterDesignation" />
+                    </div>
+                    
+                    
+                    <div class="col-md-3">
+                        <br />
+                        <button type="button" class="btn btn-primary btnSearch ml-2">
+                            <i class="fa fa-search"></i> SEARCH
+                        </button>
+                        <button type="button" class="btn btn-success btnNew" style="float:right;">
+                            <i class="fa fa-plus"></i> NEW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover dtTable">
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Full Name</th>
+                            <th>Designation</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Facebook ID</th>
+                            <th>LinkedIn ID</th>
+                            <th>photo</th>
+                            <th>Description</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formModalLabel">Trainer Setup Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                    <div class="form-group col-md-6">
+                        <label> Full Name</label>
+                        <input type="text" class="form-control txtFullName" />
+                        <input type="hidden" class="form-control hdnTrainerID" value="0" />
+                    </div>
+                    <div class="formgroup col-md-6 ">
+                        <label>Designation</label><br />
+                        <input type="text" class="form-control  txtDesignation" />
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Email</label>
+                        <input type="email" class="form-control txtEmail" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Contact</label>
+                        <input type="text" class="form-control Contact" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Facebook ID <i class="compul">*</i></label>
+                        <input type="text" class="form-control txtFacebookID" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>LinkedIn ID</label>
+                        <input type="text" class="form-control txtLinkedinID" />
+                    </div>
+                    <div class="form-group col-md-12 mb-2">
+                        <label>Short Description</label>
+                        <textarea class="form-control txtShortDescription">
+
+                        </textarea>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Photo</label>
+                        <input type="file" class="form-control fileupload" />
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btnClose" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary btnSubmit" id="btnSubmit">Submit</button>
+                <button type="button" class="btn btn-danger btnCancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section LocalScripts {
+    <script>
+
+        function uploadFile(callback) {
+    var fileInput = $('.fileupload')[0].files[0];
+    if (!fileInput) {
+        showToast("Stop", "Please upload an image", "error");
+        return;
+    }
+
+    var formData = new FormData();
+    formData.append("file", fileInput);
+
+    $.ajax({
+        url: '@Url.Action("UploadFile", "FileUpload")', // Endpoint for file upload
+        method: 'POST',
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function (res) {
+            if (res.success) {
+                callback(res.data); // Pass the file name/path to the callback
+            } else {
+                showToast("Stop", res.message, "error");
+            }
+        },
+        error: function (e) {
+            console.log(e);
+            showToast("Stop", "File upload failed", "error");
+        }
+    });
+}
+        var SaveUrl = '@Url.Action("SaveData", "Trainer")';
+        var GetDataUrl = '@Url.Action("GetAllData", "Trainer")';
+        var DeleteDataUrl = '@Url.Action("DeleteData", "Trainer")';
+        var GetDataByID = '@Url.Action("GetDataByID", "Trainer")';
+    </script>
+
+   <script>
+       $(document).on('click', '.btnClose', function () {
+           $('#formModal').modal('hide');
+       });
+       $(document).on('click', '.btnCancel', function () {
+           $.confirm({
+               title: 'Confirm!',
+               type: 'red',
+               content: 'Are you sure to clear form?',
+               buttons: {
+                   confirm: function () {
+                       clearForm();
+                       $('#formModal').modal('hide');
+                   },
+                   cancel: function () {
+
+                   },
+               }
+           });
+       });
+
+       $(document).ready(function () {
+           loadData();
+       });
+       $(document).on('click', '.btnNew', function () {
+           $('#formModal').modal('show');
+       })
+       $(document).on('click', '.btnSearch', function () {
+           loadData();
+       })
+       $(document).on('click', '.btnSubmit', function () {
+
+           var obj = {
+               TrainerID: $('.hdnTrainerID').val(),
+               FullName: $('.txtFullName').val(),
+               Designation: $('.txtDesignation').val(),
+               Email: $('.txtEmail').val(),
+               Contact: $('.Contact').val(),
+               FacebookID: $('.txtFacebookID').val(),
+               LinkedInID: $('.txtLinkedinID').val(),
+               ShortDescription: $('.txtShortDescription').val(),
+               Photo: ''
+           }
+           if (obj.FullName == '') {
+               showToast("Stop", "please enter Fullname", "error");
+           } else if (obj.Designation == '') {
+               showToast("Stop", "please enter Desigantion", "error");
+           } else if (obj.Email == '') {
+               showToast("Stop", "please enter Email", "error");
+           } else if (obj.Contact == '') {
+               showToast("Stop", "please enter Conatct", "error");
+           } else if (obj.FacebookID == '') {
+               showToast("Stop", "please enter FacebookID", "error");
+           } else if (obj.LinkedinID == '') {
+               showToast("Stop", "please enter LinekdInID", "error");
+           } else if (obj.ShortDescription == '') {
+               showToast("Stop", "please enter Short Description", "error");
+           }
+
+           else {
+               // Upload the file first
+               uploadFile(function (fileName) {
+                   // Set the file name/path in the form data
+                   obj.Photo = fileName;
+
+                   // Submit the form data
+                   $.ajax({
+                       contentType: "application/json; charset=utf-8",
+                       method: 'post',
+                       url: SaveUrl,
+                       data: JSON.stringify(obj),
+                       success: function (res) {
+                           if (res.success) {
+                               showToast("!!!", res.message, "success");
+                               clearForm();
+                               $('#formModal').modal('hide');
+                               loadData();
+                           } else {
+                               showToast("!!!", res.message, "error");
+                           }
+                       },
+                       error: function (e) {
+                           console.log(e);
+                       },
+                       beforeSend: function () {
+                           // Block UI if needed
+                           //$.blockUI();
+                       },
+                       complete: function () {
+                           // Unblock UI if needed
+                           //$.unblockUI();
+                       }
+                   });
+               });
+           }
+       });
+       $(document).on('click', '.btnEdit', function () {
+           var btn = $(this);
+           var id = $(this).data('key');
+           $.ajax({
+               contentType: "application/json; charset=utf-8",
+               method: 'get',
+               url: GetDataByID + '?id=' + id,
+               success: function (res) {
+                   debugger;
+                   if (res.success) {
+                       $('#formModal').modal('show');
+                       $('.hdnTrainerID').val(id);
+                       $('.txtFullName').val(res.data.fullName);
+                       $('.txtDesignation').val(res.data.designation);
+                       $('.txtEmail').val(res.data.email);
+                       $('.Contact').val(res.data.contact);
+                       $('.txtFacebookID').val(res.data.facebookID);
+                       $('.txtLinkedinID').val(res.data.linkedInID);
+                       $('.txtShortDescription').val(res.data.shortDescription);
+                       imageName = res.data.photo;
+
+                   } else {
+                       showToast("!!!", res.message, "error");
+                   }
+               },
+               error: function (e) {
+                   console.log(e);
+               },
+               beforeSend: function () {
+                   $.blockUI();
+               },
+               complete: function () {
+                   $.unblockUI();
+               }
+           });
+
+       });
+       function loadData() {
+           var fname = $('.txtFilterFullName').val() || '';
+           var designation = $('.filterDesignation').val() || '';
+           var fID = $('.txtFilterFacebookID').val() || '';
+           $.ajax({
+               contentType: "application/json; charset=utf-8",
+               method: 'get',
+               url: GetDataUrl + '?fname=' + fname + '&designation=' + designation + '&fID=' + fID,
+
+               success: function (res) {
+                   debugger;
+                   var xyz = '';
+                   $.each(res.data, function (i, x) {
+                       xyz += '<tr>';
+                       xyz += '<td>' + (i + 1) + '</td>';
+                       xyz += '<td>' + x.fullName + '</td>';
+                       xyz += '<td>' + x.designation + '</td>';
+                       xyz += '<td>' + x.email + '</td>';
+                       xyz += '<td>' + x.contact + '</td>';
+                       xyz += '<td>' + (x.facebookID ? "<a target='_blank' href='" + x.facebookID + "'>Click Here</a>" : "<span><i class='fa fa-times'></i></span>") + '</td>';
+                       xyz += '<td>' + (x.linkedInID ? "<a target='_blank' href='" + x.linkedInID + "'>Click Here</a>" : "<span><i class='fa fa-times'></i></span>") + '</td>';
+                       xyz += '<td><img src="/satishna/' + x.photo + '" alt="" width="50" height="50" /></td>';
+                       xyz += '<td>' + x.shortDescription + '</td>';
+                       xyz += '<td><button type="button" class="btn btn-secondary btn-sm btnEdit" data-key="' + x.trainerID + '"><i class="fa fa-edit"></i> EDIT</button>';
+                       xyz += '<button type="button" class="btn btn-danger btn-sm ml-2 btnDelete" data-key="' + x.trainerID + '"> <i class="fa fa-trash"></i> DELETE</button ></td > ';
+                       xyz += '</tr>';
+                   });
+
+                   $('.data-body').html(xyz);
+               },
+               error: function (e) {
+                   console.log(e);
+               },
+               beforeSend: function () {
+                   $.blockUI();
+               },
+               complete: function () {
+                   $.unblockUI();
+               }
+           });
+       }
+       $(document).on('click', '.btnDelete', function () {
+           var btn = $(this);
+           $.confirm({
+               title: 'Confirm!',
+               type: 'red',
+               content: 'Are you sure to delete?',
+               buttons: {
+                   confirm: () => {
+                       var id = $(btn).data('key')
+                       deleteData(id);
+                   },
+                   cancel: function () {
+
+                   },
+               }
+           });
+       })
+
+       function clearForm() {
+           $('.hdnTrainerID').val(0);
+           $('.txtFullName').val('');
+           $('.txtDesignation').val('');
+           $('.txtEmail').val('');
+           $('.Conatact').val('');
+           $('.txtFacebookId').val('');
+           $('.txtLinkedinId').val('');
+           $('.txtShortDescription').val('');
+           imageName = '';
+       }
+
+       function deleteData(id) {
+           $.ajax({
+               contentType: "application/json; charset=utf-8",
+               method: 'get',
+               url: DeleteDataUrl + '?id=' + id,
+               success: function (res) {
+                   if (res.success) {
+                       showToast("!!!", res.message, "success");
+                       loadData();
+
+                   } else {
+                       showToast("!!!", res.message, "error");
+                   }
+               },
+               error: function (e) {
+                   console.log(e);
+               },
+               beforeSend: function () {
+                   $.blockUI();
+               },
+               complete: function () {
+                   $.unblockUI();
+               }
+           });
+       }
+
+   </script>
+
+}

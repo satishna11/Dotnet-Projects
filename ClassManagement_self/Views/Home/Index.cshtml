@@ -1,0 +1,162 @@
+﻿@model Entity.ViewModel.DashboardVM
+
+
+
+
+
+@{
+
+    Html.RenderPartial("_slider", Model.sliders);
+}
+
+
+
+
+<!-- SweetAlert2 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.0/dist/sweetalert2.min.css" rel="stylesheet">
+
+<!-- SweetAlert2 JS -->
+
+<div class="rs-services rs-services-style1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item rs-animation-hover">
+                    <div class="services-icon">
+                        <i class="fa fa-american-sign-language-interpreting rs-animation-scale-up"></i>
+                    </div>
+                    <div class="services-desc">
+                        <h4 class="services-title">Trending Courses</h4>
+                        <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item rs-animation-hover">
+                    <div class="services-icon">
+                        <i class="fa fa-book rs-animation-scale-up"></i>
+                    </div>
+                    <div class="services-desc">
+                        <h4 class="services-title">Books & Liberary</h4>
+                        <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item rs-animation-hover">
+                    <div class="services-icon">
+                        <i class="fa fa-user rs-animation-scale-up"></i>
+                    </div>
+                    <div class="services-desc">
+                        <h4 class="services-title">Certified Teachers</h4>
+                        <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item rs-animation-hover">
+                    <div class="services-icon">
+                        <i class="fa fa-graduation-cap rs-animation-scale-up"></i>
+                    </div>
+                    <div class="services-desc">
+                        <h4 class="services-title">Certification</h4>
+                        <p>Lorem ipsum dolor sit amet Sed nec molestie justo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services End -->
+<!-- About Us Start -->
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="about-img rs-animation-hover">
+                    <img src="/satishna/6F198A35-9621-4BDC-965C-FA74B2678CD6.jpeg" alt="img02" />
+                    <a class="popup-youtube rs-animation-fade" href="https://www.youtube.com/watch?v=tzMpWiGL8D8" title="Video Icon">
+                    </a>
+                    <div class="overly-border"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about-desc">
+                    <h3>WELCOME TO EDULEARN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div id="accordion" class="rs-accordion-style1">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="acdn-title" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Our History
+                            </h3>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h3 class="acdn-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Our Mission
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header mb-0" id="headingThree">
+                            <h3 class="acdn-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Our Vision
+                            </h3>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@{Html.RenderPartial("_popularCourse", Model.courses);}
+
+<div id="rs-partner" class="rs-partner pt-70 pb-70">
+    <div class="container">
+        <div class="rs-carousel owl-carousel" data-loop="true" data-items="5" data-margin="80" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="false" data-nav="false" data-nav-speed="false" data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="4" data-ipad-device-nav="false" data-ipad-device-dots="false" data-md-device="5" data-md-device-nav="false" data-md-device-dots="false">
+            <div class="partner-item">
+                <a href="#"><img src="~/template/images/partner/1.png" alt="Partner Image"></a>
+            </div>
+            <div class="partner-item">
+                <a href="#"><img src="~/template/images/partner/2.png" alt="Partner Image"></a>
+            </div>
+            <div class="partner-item">
+                <a href="#"><img src="~/template/images/partner/3.png" alt="Partner Image"></a>
+            </div>
+            <div class="partner-item">
+                <a href="#"><img src="~/template/images/partner/4.png" alt="Partner Image"></a>
+            </div>
+            <div class="partner-item">
+                <a href="#"><img src="~/template/images/partner/5.png" alt="Partner Image"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Partner End -->
+@section LocalScripts{
+
+    <!-- jQuery AJAX to Fetch Notices on Page Load -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.0/dist/sweetalert2.min.js"></script>
+
+
+
+}

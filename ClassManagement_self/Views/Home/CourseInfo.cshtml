@@ -1,0 +1,235 @@
+﻿
+@{
+    Layout = "_AdminLayout";
+}
+
+<style>
+    .container {
+        margin-top: 10px;
+    }
+</style>
+<!-- Courses Details Start -->
+<div class="rs-courses-details ">
+    <div class="container">
+        <div class="row ">
+            <div class=" col-md-12">
+                <div class="detail-img">
+                    
+                    <div class="course-seats" style="margin-top:100px">
+                        @Model.course.MaxStudent <span>SEATS</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="/satishna/@Model.course.Thumbnail" alt="course Images" style="width: 100%; height: 500px; object-fit: cover; border-radius: 2%;"/>
+                </div>
+                <div class="course-content">
+                    <!--<h3 class="course-title">Computer Science And Engineering</h3>-->
+                    <div class="course-instructor">
+                        <div class="row">
+                            <div class="col-md-6 mobile-mb-20">
+                                <h3 class="instructor-title">COURSE <span class="primary-color">INSTRUCTOR</span></h3>
+                               
+                                <div class="instructor-inner">
+                                    
+                                    <div class="instructor-body">
+                                        <h3 class="name">@Model.course.TrainerName</h3>
+                                        <span class="designation">@Model.course.Title</span>
+                                        <div class="social-icon">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="short-desc">
+                                    <p>@Model.course.ShortDescription</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="instructor-title">BASIC <span class="primary-color">INFORMATION</span></h3>
+                                <div class="row info-list">
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>
+                                                <span>Price :</span> $@Model.course.TotalPrice
+                                            </li>
+                                            <li>
+                                                <span>Category :</span> @Model.course.CourseGroup
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>
+                                                <span>Course Time :</span> @Model.course.CourseTime
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="apply-btn">
+                                    <input type="button" value="APPLY NOW" />
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-desc">
+                    <h3 class="desc-title">Course Description</h3>
+                    <div class="desc-text">
+
+                        @Html.Raw(Model.course.DetailDEscription)
+
+
+                    </div>
+
+                    <!-- Testimonial Start -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formModalLabel">Student Setup Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                    <div class="form-group col-md-6">
+                        <label> Full Name</label>
+                        <input type="text" class="form-control txtFullName" />
+                        <input type="hidden" class="form-control hdnStudentID" value="0" />
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Email</label>
+                        <input type="email" class="form-control txtEmail" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Contact</label>
+                        <input type="text" class="form-control Contact" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Courses</label>
+                        <select class="form-control ddlCourse">
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Photo</label>
+                        <input type="file" class="form-control fileupload" />
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary btnSubmit" id="btnSubmit">Submit</button>
+                <button type="button" class="btn btn-danger btnCancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    @section LocalScripts{
+
+        <script>$(document).on('click', '.apply-btn', function () {
+                $('#formModal').modal('show');
+})
+            $(document).ready(function () {
+
+                loadCourseInfo();
+            });
+            function loadCourseInfo() {
+                $.ajax({
+                    contentType: "application/json; charset=utf-8",
+                    method: 'get',
+                    url:'@Url.Action("GetAllData", "Courseinfo")',
+                    success: function (response) {
+                    /*var res = JSON.parse(response.message);*/debugger;
+                        var res = response.data;
+                        var xyz = '<option value="0">--select--</option>';
+                        $.each(res, function (i, x) {
+                            xyz += '<option value="' + x.infoID + '" >' + x.title + '</option>';
+                        });
+
+                        $('.ddlCourse').html(xyz);
+
+                    },
+                    error: function (e) {
+                        console.log(e);
+                    },
+                    beforeSend: function () {
+                        $.blockUI();
+                    },
+                    complete: function () {
+                        $.unblockUI();
+                    }
+                });
+            }
+
+            var SaveUrl = '@Url.Action("SaveData", "Student")';
+            $(document).on('click', '.btnSubmit', function () {
+
+            var obj = {
+                StudentID: +$('.hdnStudentID').val(),
+                InfoID: +$('.ddlCourse').val(),
+                FullName: $('.txtFullName').val(),
+                Email: $('.txtEmail').val(),
+                Contact: $('.Contact').val(),
+                Photo: imageName,
+            }
+            alert(obj.InfoID);
+            if (obj.FullName == '') {
+                showToast("Stop", "please enter Fullname", "error");
+            } else if (obj.Email == '') {
+                showToast("Stop", "please enter Email", "error");
+            } else if (obj.Contact == '') {
+                showToast("Stop", "please enter Conatct", "error");
+            }
+
+            else {
+                $.ajax({
+                    contentType: "application/json; charset=utf-8",
+                    method: 'post',
+                    url: SaveUrl,
+                    data: JSON.stringify(obj),
+                    success: function (res) {
+                        if (res.success) {
+                            showToast("!!!", res.message, "success");
+                            clearForm();
+                            $('#formModal').modal('hide');
+                            loadData();
+                        } else {
+                            showToast("!!!", res.message, "error");
+                        }
+                    },
+                    error: function (e) {
+                        console.log(e);
+                    },
+                    beforeSend: function () {
+                        // block ui
+                        //$.blockUI();
+                    },
+                    complete: function () {
+                        // unblock ui
+                        //$.unblockUI();
+                    }
+
+
+                });
+            }
+        });
+    </script>
+    }

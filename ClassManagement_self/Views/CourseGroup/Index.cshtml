@@ -1,0 +1,117 @@
+﻿@{
+    Layout = "_Adminlayout";
+}
+
+<div class="row">
+    <div class="col-md-10 mt-4">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>Title</label><br />
+                        <input type="text" class="form-control txtFilterTitle" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>Sub Title</label><br />
+                        <input type="text" class="form-control txtFilterSubTitle" />
+                    </div>
+
+                    <div class="col-md-4">
+                        <br />
+                        <button type="button" class="btn btn-primary btnSearch ml-2">
+                            <i class="fa fa-search"></i> SEARCH
+                        </button>
+                        <button type="button" class="btn btn-success btnNew" style="float:right;">
+                            <i class="fa fa-plus"></i> NEW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover dtTable">
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Title</th>
+                            <th>Sub Title</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Course Group Setup Page</h5>
+                <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                    <div class="form-group col-md-6">
+                        <label>Title</label>
+                        <input type="text" class="form-control txtTitle" />
+                        <input type="hidden" class="form-control hdnCourseGroupID" value="0" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Sub Title</label>
+                        <input type="text" class="form-control txtSubTitle" />
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btnClose" data-dismiss="modal" >Close</button>
+                <button type="button" class="btn btn-primary btnSubmit" id="btnSubmit">Submit</button>
+                <button type="button" class="btn btn-danger btnCancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section LocalScripts {
+    <script>
+        var SaveUrl = '@Url.Action("SaveData", "CourseGroup")';
+        $(document).on('click', '.btnClose', function () {
+            $('#formModal').modal('hide');
+        });
+        var GetDataUrl = '@Url.Action("GetAllData", "CourseGroup")';
+
+        $(document).on('click', '.btnCancel', function () {
+            $.confirm({
+                title: 'Confirm!',
+                type: 'red',
+                content: 'Are you sure to clear form?',
+                buttons: {
+                    confirm: function () {
+                        clearForm();
+                        $('#formModal').modal('hide');
+                    },
+                    cancel: function () {
+
+                    },
+                }
+            });
+        })
+        var DeleteDataUrl = '@Url.Action("DeleteData", "CourseGroup")';
+        var GetDataByID = '@Url.Action("GetDataByID", "CourseGroup")';
+    </script>
+    <script src="~/customjs/coursegroup.js"></script>
+
+
+
+
+
+}
